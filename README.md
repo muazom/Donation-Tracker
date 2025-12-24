@@ -21,7 +21,7 @@ Fully customizable by editing the script
 
 Clone or download the repository:
 
-git clone https://github.com/yourusername/donation-tracker.git
+git clone https://github.com/muazom/donation-tracker.git
 
 
 Open index.html in your browser
