@@ -1,38 +1,34 @@
 Donation Tracker
 
-A sleek donation tracker website that visually displays progress towards a goal. Designed with a modern, professional look and floating neon "W"s in the background.
+A sleek, animated donation tracker built with HTML, CSS, and JavaScript.
+Displays the current donation amount, percentage funded, and a progress bar, with floating “W”s for a cool visual effect.
 
 🌟 Features
 
-Shows the current donation amount and percentage funded
+Current donation amount displayed dynamically
 
-Progress bar that fills dynamically according to the donation amount
+Progress bar fills according to donation amount
 
 Goal tracking (default: ₦40,000)
 
-Floating “W”s in the background for a cool, animated aesthetic
-
-Fully customizable: update the donation amount in the script
+Floating neon "W"s in the background for style
 
 Responsive design for desktop and mobile
 
-💻 Demo
+Fully customizable by editing the script
 
-![Uploading image.png…]()
+💻 How to Use
 
+Clone or download the repository:
 
-🛠 Installation / Usage
-
-Clone the repository
-
-git clone https://github.com/muazom/donation-tracker.git
+git clone https://github.com/yourusername/donation-tracker.git
 
 
 Open index.html in your browser
 
-Update the donation amount in the <script> section:
+Update the donation amount in the script:
 
-const currentAmount = 12500; // <-- change this to the current donation
+const currentAmount = 12500; // <-- change this to your current donation
 
 
 The progress bar and percentage will update automatically
@@ -44,7 +40,7 @@ Change the goal amount:
 const goal = 40000;
 
 
-Update the progress bar colors in CSS:
+Change progress bar colors in CSS:
 
 --bar-gradient: linear-gradient(90deg, #4ade80, #22d3ee);
 
@@ -53,12 +49,12 @@ Modify floating "W"s:
 
 const floatCount = 20; // number of W's
 
-🖌 Technologies Used
+🖌 Technologies
 
 HTML5
 
 CSS3
 
-JavaScript (Vanilla)
+JavaScript
 
 Google Fonts (Montserrat)
